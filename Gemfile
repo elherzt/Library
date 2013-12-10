@@ -40,6 +40,17 @@ end
 
 group :development, :test do
   gem 'jasmine'
+  gem 'rspec'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
+  gem 'selenium-webdriver'
+  gem 'capybara'
+  gem 'faker'
+  gem 'shoulda-matchers'
 end
 
 # Use ActiveModel has_secure_password
